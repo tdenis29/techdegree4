@@ -393,6 +393,9 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
+.warning:hover, .success:hover, .info:hover, .error:hover, .default:hover {
+  background-color: #9cecfd;
+}
 
 .default {
   background-color: #51ddfc;
