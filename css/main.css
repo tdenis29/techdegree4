@@ -1,9 +1,9 @@
 /* Error: Undefined variable.
  *   ,
- * 6 |     color:  $primarycolor;
- *   |             ^^^^^^^^^^^^^
+ * 6 |     color: $primarycolor;
+ *   |            ^^^^^^^^^^^^^
  *   '
- *   scss/base/_typography.scss 6:13  @import
+ *   scss/base/_typography.scss 6:12  @import
  *   scss/base/_index.scss 2:9        @import
  *   scss/main.scss 1:9               root stylesheet */
 
@@ -15,5 +15,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      color:  $primarycolor;\a   \2502              ^^^^^^^^^^^^^\a   \2575 \a   scss/base/_typography.scss 6:13  @import\a   scss/base/_index.scss 2:9        @import\a   scss/main.scss 1:9               root stylesheet";
+  content: "Error: Undefined variable.\a   \2577 \a 6 \2502      color: $primarycolor;\a   \2502             ^^^^^^^^^^^^^\a   \2575 \a   scss/base/_typography.scss 6:12  @import\a   scss/base/_index.scss 2:9        @import\a   scss/main.scss 1:9               root stylesheet";
 }
