@@ -16,11 +16,14 @@
     display: block;
     width: 100%;
     transition: 
-      background-color .2s ease-in-out, 
-      color .2s ease-in-out;
+    background-color .2s ease-in-out, 
+    color .2s ease-in-out;
+    &:hover {
+        color:$shader;
+        background-color: $primarycolor;
   }
-  
-  .nav-link:hover {
-    color:$shader;
-    background-color: $primarycolor;
-  }
+}
+  // .nav-link:hover {
+  //   color:$shader;
+  //   background-color: $primarycolor;
+  // }
