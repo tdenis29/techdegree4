@@ -2,23 +2,30 @@
 /*              Buttons                          */
 /* ============================================= */
 
-.btn {
+ %btn {
     margin-top: 15px;
     width: 100%;
-    color: $shader;
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    .default {
+      background-color: $secondarycolor;
+      @extend %btn;
+    }
+    .error {
+      @extend %btn;
+      background-color: #e4757a;
+    }
   }
   
-  .default {
-    background-color: $secondarycolor;
-  }
+  // .default {
+  //   background-color: $secondarycolor;
+  // }
   
-  .error {
-    background-color: #e4757a;
-  }
+  // .error {
+  //   background-color: #e4757a;
+  // }
   
   .info {
     background-color: #927bc1;
