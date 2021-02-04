@@ -1,6 +1,9 @@
 //Color Variables 
 $primarycolor: #58e1c1;
+$primary-dark: darken($primarycolor, 15%);
 $secondarycolor: #51ddfc;
+$secondary-hover: lighten($secondarycolor, 15%);
+$complement: complement($primarycolor);
 $shader: #777;
 
 

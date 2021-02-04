@@ -361,7 +361,7 @@ template {
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
-  border-left: 8px solid #58e1c1;
+  border-left: 8px solid #24c8a2;
   border-radius: 5px;
 }
 
@@ -402,11 +402,11 @@ a {
 }
 
 .error {
-  background-color: #e4757a;
+  background-color: #e15878;
 }
 
 .info {
-  background-color: #927bc1;
+  background-color: purple;
 }
 
 .success {

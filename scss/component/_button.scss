@@ -10,7 +10,7 @@
     text-transform: uppercase;
     border-radius: 5px;
     &:hover {
-      background-color: lighten($secondarycolor, 15%)
+      background-color: $secondary-hover;
 
     }
 }
@@ -20,11 +20,11 @@
     }
     .error {
       @extend %btn;
-      background-color: #e4757a;
+      background-color: $complement;
     }
     .info {
       @extend %btn;
-      background-color: #927bc1;
+      background-color: purple;
     }
     .success {
       @extend %btn;
