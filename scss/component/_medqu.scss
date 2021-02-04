@@ -10,12 +10,13 @@
 @include imagery;
 }
 .row {
-  flex-direction: row;
+  flex-direction: row
 }
 [class^=col] {
-  @include flexy (flex, center);
+  @include flexy ($disp: flex, $just: center);
   margin-top: 0;
   align-items: center;
+  
 }
 [class^=col] + [class^=col] {
   margin-left: 10px;
