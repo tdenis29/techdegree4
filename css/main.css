@@ -393,28 +393,41 @@ a {
   text-transform: uppercase;
   border-radius: 5px;
 }
-.warning:hover, .success:hover, .info:hover, .error:hover, .default:hover {
-  background-color: #9cecfd;
-}
 
 .default {
   background-color: #51ddfc;
+  border-radius: 5px;
+}
+.default:hover {
+  background-color: #b5f1fe;
 }
 
 .error {
   background-color: #e15878;
 }
+.error:hover {
+  background-color: #f1aebe;
+}
 
 .info {
   background-color: purple;
 }
+.info:hover {
+  background-color: #e600e6;
+}
 
 .success {
-  background-color: #63cc82;
+  background-color: yellow;
+}
+.success:hover {
+  background-color: #ffff66;
 }
 
 .warning {
-  background-color: #fd7856;
+  background-color: red;
+}
+.warning:hover {
+  background-color: #ff6666;
 }
 
 /* ============================================= */
@@ -462,43 +475,43 @@ a {
 }
 
 .theme.col-1 {
-  background-color: #927bc1;
+  background-color: purple;
 }
 
 .theme.col-2 {
-  background-color: #fd7856;
+  background-color: #b30000;
 }
 
 .theme.col-3 {
-  background-color: #deb2ee;
+  background-color: #e600e6;
 }
 
 .theme.col-4 {
-  background-color: #7ee6fd;
+  background-color: #58e1c1;
 }
 
 .theme.col-5 {
-  background-color: #88d9a0;
+  background-color: #1aff1a;
 }
 
 .theme.col-6 {
-  background-color: #4da2bb;
+  background-color: #1fd3fb;
 }
 
 .theme.col-7 {
-  background-color: #ec9fa3;
+  background-color: #ffcccc;
 }
 
 .theme.col-8 {
-  background-color: #fd9f85;
+  background-color: #ff4d4d;
 }
 
 .theme.col-9 {
-  background-color: #e4757a;
+  background-color: green;
 }
 
 .theme.col-10 {
-  background-color: #63cc82;
+  background-color: #00cd00;
 }
 
 .theme.col-11 {
@@ -506,11 +519,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #80e8d1;
-}
-
-.card {
-  flex-basis: 100%;
+  background-color: #83e7fd;
 }
 
 /* ============================================= */
@@ -539,6 +548,28 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* ============================================= */
+/*              Navigation                       */
+/* ============================================= */
+.nav {
+  padding-left: 0;
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.nav .nav-link {
+  text-align: center;
+  border-radius: 5px;
+  padding: 10px 0;
+  display: block;
+  width: 100%;
+  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+}
+.nav .nav-link:hover {
+  color: #777;
+  background-color: #58e1c1;
 }
 
 /* ============================================= */
@@ -644,27 +675,6 @@ a {
     margin-left: initial;
     margin-right: initial;
   }
-}
-/* ============================================= */
-/*              Navigation                       */
-/* ============================================= */
-.nav {
-  padding-left: 0;
-  flex-basis: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.nav .nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-.nav .nav-link:hover {
-  color: #777;
-  background-color: #58e1c1;
 }
 
 /*# sourceMappingURL=main.css.map */

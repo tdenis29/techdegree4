@@ -9,30 +9,44 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
-    &:hover {
-      background-color: $secondary-hover;
-
-    }
-}
+ }
     .default {
       background-color: $secondarycolor;
       @extend %btn;
+      border-radius: 5px;
+      &:hover {
+      background-color: lighten($secondarycolor,20%);
+
+    }
     }
     .error {
       @extend %btn;
       background-color: $complement;
+      &:hover {
+        background-color: lighten($complement,20%);
+      }
     }
     .info {
       @extend %btn;
-      background-color: purple;
+      background-color: $button;
+      &:hover {
+        background-color: lighten($button,20%);
     }
+  }
+
     .success {
       @extend %btn;
-      background-color: #63cc82;
+      background-color: $button1;
+      &:hover {
+        background-color: lighten($button1,20%);
+  
     }
+  }
     .warning {
       @extend %btn;
-      background-color: #fd7856;
+      background-color: $warning;
+      &:hover {
+        background-color: lighten($warning,20%);
+  
     }
-  
-  
+  }
