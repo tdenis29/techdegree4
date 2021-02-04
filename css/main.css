@@ -423,14 +423,21 @@ a {
 .form {
   flex-basis: 100%;
 }
-
-.input {
+.form .input {
   display: block;
   width: 94%;
   margin: 10px auto 0;
   border: none;
   padding: 10px;
   border-bottom: 5px solid #58e1c1;
+}
+.form .input .hidden {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 .hidden {
@@ -461,9 +468,6 @@ a {
   min-height: 25px;
   padding: 10px;
   border-radius: 5px;
-}
-[class^=col] .theme.col-1 {
-  background-color: #927bc1;
 }
 
 .theme.col-1 {
