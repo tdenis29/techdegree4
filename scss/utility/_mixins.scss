@@ -1,6 +1,8 @@
-@mixin imagery {
+@mixin imagery  ($marg: null, $maxw: null) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-top: $marg;
+    max-width: $maxw;
 }
 

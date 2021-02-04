@@ -3,16 +3,16 @@
 /* ============================================= */
 
 .img-avatar {
-    @include imagery;
-    margin-top: 10px;
-    max-width: 100%; 
+    @include imagery (10px, 100%);
+    // margin-top: 10px;
+    // max-width: 100%; 
     max-height: 100%;
   }
 
   .img-frame {
-    @include imagery;
-    margin-top: 10px;
-    max-width: 100%;
+    @include imagery (10px, 100%);
+    // margin-top: 10px;
+    // max-width: 100%;
     padding: 13px;
     border: 1px solid #ccc;
   }

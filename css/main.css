@@ -668,17 +668,4 @@ a {
   background-color: #58e1c1;
 }
 
-.nav-link {
-  text-align: center;
-  border-radius: 5px;
-  padding: 10px 0;
-  display: block;
-  width: 100%;
-  transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-}
-.nav-link:hover {
-  color: #777;
-  background-color: #58e1c1;
-}
-
 /*# sourceMappingURL=main.css.map */
