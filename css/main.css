@@ -403,10 +403,10 @@ a {
 }
 
 .error {
-  background-color: #e15878;
+  background-color: orange;
 }
 .error:hover {
-  background-color: #f1aebe;
+  background-color: #ffc966;
 }
 
 .info {
@@ -417,10 +417,10 @@ a {
 }
 
 .success {
-  background-color: yellow;
+  background-color: #d1d10c;
 }
 .success:hover {
-  background-color: #ffff66;
+  background-color: #f5f54e;
 }
 
 .warning {
@@ -479,31 +479,31 @@ a {
 }
 
 .theme.col-2 {
-  background-color: #b30000;
+  background-color: #d1d10c;
 }
 
 .theme.col-3 {
-  background-color: #e600e6;
+  background-color: red;
 }
 
 .theme.col-4 {
-  background-color: #58e1c1;
+  background-color: #e15878;
 }
 
 .theme.col-5 {
-  background-color: #1aff1a;
+  background-color: orange;
 }
 
 .theme.col-6 {
-  background-color: #1fd3fb;
+  background-color: #24c8a2;
 }
 
 .theme.col-7 {
-  background-color: #ffcccc;
+  background-color: orange;
 }
 
 .theme.col-8 {
-  background-color: #ff4d4d;
+  background-color: green;
 }
 
 .theme.col-9 {
@@ -511,7 +511,7 @@ a {
 }
 
 .theme.col-10 {
-  background-color: #00cd00;
+  background-color: orange;
 }
 
 .theme.col-11 {
@@ -519,7 +519,7 @@ a {
 }
 
 .theme.col-12 {
-  background-color: #83e7fd;
+  background-color: purple;
 }
 
 /* ============================================= */
@@ -541,7 +541,7 @@ a {
   margin-top: 10px;
   max-width: 100%;
   padding: 13px;
-  border: 1px solid #ccc;
+  border: 1px soli #777;
 }
 
 .img-logo {

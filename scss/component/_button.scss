@@ -21,12 +21,12 @@
 
     .error {
       @extend %btn;
-      background-color: $complement;
+      background-color: $button3;
       &:hover {
-        background-color: lighten($complement,20%);
+        background-color: lighten($button3,20%);
       }
     }
-    
+
     .info {
       @extend %btn;
       background-color: $button;

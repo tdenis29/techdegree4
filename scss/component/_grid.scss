@@ -33,31 +33,31 @@
 }
 
 .theme.col-2 {
-  background-color: darken($warning, 15%);
+  background-color: $button1;
 }
 
 .theme.col-3 {
-  background-color:lighten($button, 20%);
+  background-color: $warning;
 }
 
 .theme.col-4 {
-  background-color: $primarycolor;
+  background-color: $complement;
 }
 
 .theme.col-5 {
-  background-color: lighten($button2, 30%)
+  background-color: $button3;
 }
 
 .theme.col-6 {
-  background-color: darken($secondarycolor, 10%);
+  background-color: $primary-dark;
 }
 
 .theme.col-7 {
-  background-color: lighten($warning, 40%)
+  background-color: $button3;
 }
 
 .theme.col-8 {
-  background-color: lighten($warning, 15%)
+  background-color: $button2;
 }
 
 .theme.col-9 {
@@ -65,7 +65,7 @@
 }
 
 .theme.col-10 {
-  background-color: lighten($button2, 15%)
+  background-color: $button3;
 }
 
 .theme.col-11 {
@@ -73,7 +73,7 @@
 }
 
 .theme.col-12 {
-  background-color: lighten($secondarycolor,10%);
+  background-color: $button;
 }
 
 // .card {

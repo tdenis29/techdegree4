@@ -10,7 +10,7 @@
   .img-frame {
     @include imagery (10px, 100%);
     padding: 13px;
-    border: 1px solid #ccc;
+    border: 1px soli $shader;
   }
   
   .img-logo {
