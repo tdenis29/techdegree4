@@ -16,9 +16,9 @@
       border-radius: 5px;
       &:hover {
       background-color: lighten($secondarycolor,20%);
+    }
+    }
 
-    }
-    }
     .error {
       @extend %btn;
       background-color: $complement;
@@ -26,6 +26,7 @@
         background-color: lighten($complement,20%);
       }
     }
+    
     .info {
       @extend %btn;
       background-color: $button;
