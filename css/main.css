@@ -431,14 +431,6 @@ a {
   padding: 10px;
   border-bottom: 5px solid #58e1c1;
 }
-.form .input .hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-}
 
 .hidden {
   position: absolute;
@@ -631,6 +623,7 @@ a {
   }
 
   .nav {
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
