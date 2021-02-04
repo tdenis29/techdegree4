@@ -1,32 +1,25 @@
 /* ============================================= */
 /*              Media Queries                    */
 /* ============================================= */
-@media (min-width: 768px) {
-
+@media (min-width: $medbreak) {
 .container {
   max-width: 1400px;
   @include imagery;
 }
-
 .centered {
 @include imagery;
 }
-
 .row {
   flex-direction: row;
 }
-
 [class^=col] {
-  display: flex;
-  justify-content: center;
+  @include flexy (flex, center);
   margin-top: 0;
   align-items: center;
 }
-
 [class^=col] + [class^=col] {
   margin-left: 10px;
 }
-
 .col-1 {
   flex-basis: 8.33%;
 }
